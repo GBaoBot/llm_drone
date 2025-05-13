@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    yolo_model_name: /ros2_airsim/ws_ros2/src/yolo_object_detection/models/yolo11n.pt
+    input_image_topic: /airsim/image
+    inference_topic: /yolo/inference
+    annotated_frame_topic: /yolo/annotated_frame
+    confidence_threshold: 0.5
+    iou_threshold: 0.4

@@ -1,0 +1,23 @@
+topics:
+  in:
+    frd_vx: "/fmu/in/FRD/vx"
+    frd_vy: "/fmu/in/FRD/vy"
+    frd_vz: "/fmu/in/FRD/vz"
+    frd_vr: "/fmu/in/FRD/vr"
+    ned_px: "/fmu/in/NED/px"
+    ned_py: "/fmu/in/NED/py"
+    ned_pz: "/fmu/in/NED/pz"
+    ned_vx: "/fmu/in/NED/vx"
+    ned_vy: "/fmu/in/NED/vy"
+    ned_vz: "/fmu/in/NED/vz"
+    ned_vr: "/fmu/in/NED/vr"
+  out:
+    heading: "/fmu/out/heading"
+  
+services:
+  takeoff: "~/takeoff"
+  land: "~/land"
+
+constants:
+  max_speed_xyz: 5
+  max_speed_r: 1
